@@ -3,15 +3,26 @@ import logging
 from pathlib import Path
 
 
+
 logging.basicConfig(level=logging.INFO, format = '[%(asctime)s]: %(message)s:')
+
+project_name = "math_ai_app"
 
 list_of_files = [
 
-    "src/__init__.py",
-    ".env",
-    "setup.py",
-    "app.py",
-    "research/trails.ipynb"
+    f"src/{project_name}/config/__init__.py",
+    f"src/{project_name}/config/settings.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/core/__init__.py",
+    f"src/{project_name}/core/problem_solver.py",
+    f"src/{project_name}/core/learning.py",
+    f"src/{project_name}/core/quiz_generator.py",
+    f"src/{project_name}/core/assistant.py",
+    f"src/{project_name}/db/__init__.py",
+    f"src/{project_name}/db/database.py",
+    f"src/{project_name}/db/schems.sql"
+
+    
 
 ]
 
