@@ -1,1 +1,20 @@
+# Core Libraries for LLM and AI
 langchain
+langchain-community
+langchain-core
+openai     ## For interacting with openai GPT Models
+sympy==1.12  ## For  Solving Mathematical Problems
+
+# Database Dependencies
+sqlite3    # For database management (SQLite is built-in with python)
+
+#  Logging Dependencies
+loguru==0.7.0  
+# Tokenization and PDF Processing  
+tictoken==0.4.0
+PyPDF2==3.0.1
+pypdf==3.10.0
+aiofiles==23.1.0
+# Database and Indexing
+faiss-cpu==1.7.4     #for similarity search and vector databases 
+
